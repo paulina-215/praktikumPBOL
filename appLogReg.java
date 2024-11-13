@@ -219,8 +219,8 @@ public class appLogReg extends JFrame {
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
-            app app = new app();
-            app.setVisible(true);
+            appLogReg appLogReg = new appLogReg();
+            appLogReg.setVisible(true);
         });
     }
 }
